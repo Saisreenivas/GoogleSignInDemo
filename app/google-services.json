@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "33518740403",
+    "project_id": "dulcet-glyph-163314"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33518740403:android:1e867c806c23f73e",
+        "android_client_info": {
+          "package_name": "com.saisreenivas.test.googlesignindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33518740403-it8tgtar7n980pc87v1kebgo7beghll2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saisreenivas.test.googlesignindemo",
+            "certificate_hash": "4b56153e45f01a821ec5539eaf6806b90b20a400"
+          }
+        },
+        {
+          "client_id": "33518740403-2kdhcnnh3anr65432l26v013tilaef7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOq8eH9OlGoo-e2LFKrb1zmtb58xJM3u4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d6d6d6"
+    tools:context="com.saisreenivas.test.googlesignindemo.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_alignParentTop="true"
+        android:id="@+id/signed_in_layout"
+        android:layout_margin="25dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_alignParentTop="true"
+            android:layout_height="100dp"
+            android:id="@+id/sign_in_image"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/user_img"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="User Name"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/sign_in_image"
+            android:id="@+id/sign_in_name"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/sign_in_image"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/sign_in_name"
+            android:id="@+id/sign_in_email"
+            android:text="saisreenivas222@gmail.com"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/sign_in_image"
+            android:layout_below="@+id/sign_in_email"
+            android:id="@+id/sign_out_button"
+            android:text="Sign Out"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sign_in_image"
+            android:text="Delete Account"
+            android:layout_marginTop="10dp"
+            android:id="@+id/delete_account"/>
+
+    </RelativeLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="50dp"
+        android:id="@+id/sign_in_button">
+    </com.google.android.gms.common.SignInButton>
+</RelativeLayout>
